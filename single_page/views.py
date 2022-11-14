@@ -7,7 +7,6 @@ def landing(request):
         'single_pages/landing.html',
     )
 
-
 def about_me(request):
     return render(
         request,

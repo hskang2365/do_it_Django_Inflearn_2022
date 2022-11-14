@@ -5,7 +5,7 @@ from .models import Post
 
 class PostList(ListView):
     model = Post
-
+    ordering = '-pk'
 
 # def index(request):
 #     posts = Post.objects.all().order_by('-pk')
